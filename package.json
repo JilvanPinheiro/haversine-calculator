@@ -1,0 +1,30 @@
+{
+  "name": "haversine-calculator",
+  "version": "1.0.0",
+  "description": "Module to calculate the distance between two points on a sphere.",
+  "main": "haversine.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js --ui tdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jilvanpinheiro/haversine-calculator"
+  },
+  "keywords": [
+    "haversine",
+    "distance",
+    "coordinates",
+    "geolocation",
+    "geojson",
+    "calculate"
+
+  ],
+  "author": "Jilvan Pinheiro (jilvanpinheiro)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
