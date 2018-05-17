@@ -1,6 +1,6 @@
 {
   "name": "haversine-calculator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Module to calculate the distance between two points on a sphere.",
   "main": "haversine.js",
   "directories": {

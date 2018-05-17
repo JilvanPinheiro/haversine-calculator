@@ -19,7 +19,7 @@ where 	φ is latitude, λ is longitude, R is earth’s radius (mean radius = 6,3
 ## Usage of this module
 ### haversine (start, end, options)
 
-    const haversine = require('haversine')
+    const haversine = require('haversine-calculator')
 
     const start = {
       latitude: -23.754842,
@@ -31,12 +31,12 @@ where 	φ is latitude, λ is longitude, R is earth’s radius (mean radius = 6,3
       longitude: -46.693210
     }
 
-    console.log(haversine(start, end))
-    console.log(haversine(start, end, {unit: 'meter'}))
-    console.log(haversine(start, end, {unit: 'mile'}))
-    console.log(haversine(start, end, {threshold: 1}))
-    console.log(haversine(start, end, {threshold: 1, unit: 'meter'}))
-    console.log(haversine(start, end, {threshold: 1, unit: 'mile'}))
+    console.log(haversineCalculator(start, end))
+    console.log(haversineCalculator(start, end, {unit: 'meter'}))
+    console.log(haversineCalculator(start, end, {unit: 'mile'}))
+    console.log(haversineCalculator(start, end, {threshold: 1}))
+    console.log(haversineCalculator(start, end, {threshold: 1, unit: 'meter'}))
+    console.log(haversineCalculator(start, end, {threshold: 1, unit: 'mile'}))
 
 
 #### The api
