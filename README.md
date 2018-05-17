@@ -19,7 +19,7 @@ where 	φ is latitude, λ is longitude, R is earth’s radius (mean radius = 6,3
 ## Usage of this module
 ### haversine (start, end, options)
 
-    const haversine = require('haversine-calculator')
+    const haversineCalculator = require('haversine-calculator')
 
     const start = {
       latitude: -23.754842,
